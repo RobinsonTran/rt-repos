@@ -4,3 +4,45 @@
 [submodule "vim_submods/vim-colorschemes"]
 	path = vim_submods/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "vim_submods/syntastic"]
+	path = vim_submods/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim_submods/YouCompleteMe"]
+	path = vim_submods/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "vim_submods/awesome-vim-colorschemes"]
+	path = vim_submods/awesome-vim-colorschemes
+	url = https://github.com/rafi/awesome-vim-colorschemes.git
+[submodule "vim_submods/command-t"]
+	path = vim_submods/command-t
+	url = https://github.com/wincent/command-t.git
+[submodule "vim_submods/ctrlp.vim"]
+	path = vim_submods/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim_submods/mru.vim"]
+	path = vim_submods/mru.vim
+	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "vim_submods/nerdtree"]
+	path = vim_submods/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim_submods/vim-surround"]
+	path = vim_submods/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim_submods/vim-bookmarks"]
+	path = vim_submods/vim-bookmarks
+	url = https://github.com/MattesGroeger/vim-bookmarks.git
+[submodule "vim_submods/vim-commentary"]
+	path = vim_submods/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim_submods/Karabiner-Elements"]
+	path = vim_submods/Karabiner-Elements
+	url = https://github.com/tekezo/Karabiner-Elements.git
+[submodule "vim_submods/vim-fugitive"]
+	path = vim_submods/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim_submods/vim-indent-guides"]
+	path = vim_submods/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "vim_submods/powerline"]
+	path = vim_submods/powerline
+	url = https://github.com/powerline/powerline.git
