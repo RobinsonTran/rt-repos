@@ -1,13 +1,13 @@
-# def fib2(n):
-#     result=[]
-#     a,b=0,1
-#     while a < n:
-#         result.append(a)
-#         a,b=b,b+a
-#     return result
-# f100=fib2(18)
+def fib2(n):
+    result=[]
+    a,b=0,1
+    while a < n:
+        result.append(a)
+        a,b=b,b+a
+    return result
+f100=fib2(18)
 
-# print f100
+print f100
 
 
 # def ask_ok(prompt, retries =4, complaint ='Yes or No, dude!'):
@@ -74,4 +74,4 @@ cheeseshop("Limburger","It's very runny, sir.",
         client="John Clease",
         sketch="Cheese Shop Sketch")
 
-asdfasdf asdfasdf
+ asdf
