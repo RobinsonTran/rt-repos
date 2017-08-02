@@ -1,0 +1,6 @@
+[submodule "vim_submods/Vundle.vim"]
+	path = vim_submods/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "vim_submods/vim-colorschemes"]
+	path = vim_submods/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
