@@ -1,14 +1,16 @@
-def fib2(n):
-    result=[]
-    a,b=0,1
-    while a < n:
-        result.append(a)
-        a,b=b,b+a
-    return result
-f100=fib2(18)
+# def fib2(n):
+#     result=[]
+#     a,b=0,1
+#     while a < n:
+#         result.append(a)
+#         a,b=b,b+a
+#     return result
+# f100=fib2(18)
 
-print f100
+# print f100
 
+# Default Argument Values
+# ------------------------------
 
 # def ask_ok(prompt, retries =4, complaint ='Yes or No, dude!'):
 #     while True:
@@ -27,6 +29,8 @@ print f100
 
 # ask_ok('OK to overwrite the file',2,'Come on, only yes or no!')
 
+# Keyword Arguments
+#---------------------------
 
 def parrot(voltage, state='a stiff',action='voom',type='Norwegian Blue'):
     print "--This parrot wouldn't",action,
@@ -74,4 +78,35 @@ cheeseshop("Limburger","It's very runny, sir.",
         client="John Clease",
         sketch="Cheese Shop Sketch")
 
- asdf
+#Arbitrary Argument Lists
+#--------------------------------------
+
+def write_multiple_items(file, separator, *args):
+    file.write(separator.join(args))
+
+print '-' * 69
+
+# Unpacking Argument Lists
+#-----------------------------
+
+
+def parrot(voltage, state='a stiff', action='voom'):
+    print "-- This parrot wouldn't", action ,
+    print "if you put", voltage, "volts through it.",
+    print "E's", state, "!"
+
+d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOOM"}
+parrot(**d)
+
+
+print '-' *69
+
+def make_incrementor(n):
+    return lambda x: x + n
+
+f = make_incrementor(42)
+
+print f(0)
+print f(11)
+
+
