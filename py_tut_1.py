@@ -86,7 +86,10 @@ def write_multiple_items(file, separator, *args):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d173df64ab4c81dedbf1b38a811642f6f48f48eb
 =======
 >>>>>>> d173df64ab4c81dedbf1b38a811642f6f48f48eb
 print '-' * 69
@@ -128,6 +131,9 @@ print '-' *69
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d173df64ab4c81dedbf1b38a811642f6f48f48eb
+=======
 >>>>>>> d173df64ab4c81dedbf1b38a811642f6f48f48eb
 =======
 >>>>>>> d173df64ab4c81dedbf1b38a811642f6f48f48eb
