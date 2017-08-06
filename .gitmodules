@@ -46,3 +46,15 @@
 [submodule "vim_submods/powerline"]
 	path = bundle/powerline
 	url = https://github.com/powerline/powerline.git
+[submodule "bundle/sparkup"]
+	path = bundle/sparkup
+	url = https://github.com/rstacruz/sparkup.git
+[submodule "bundle/tpope-surround"]
+	path = bundle/tpope-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
