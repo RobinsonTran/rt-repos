@@ -45,12 +45,13 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 let g:Powerline_symbols = 'unicode'
 let g:Powerline_colorscheme = 'solarized256'
 
-Plugin 'Valloric/YouCompleteMe.git'
+ Plugin 'Valloric/YouCompleteMe.git'
 
 "let g:ycm_autoclose_preview_window_after_completion=1
 "map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let g:ycm_server_python_interpreter = '/usr/local/Cellar/python3/3.6.2/bin/python3'
 
-let g:ycm_python_binary_path = '/usr/bin/python3'
+let g:ycm_python_binary_path = '/usr/local/Cellar/python3/3.6.2/bin/python3'
 "Uses Python 3 autocomplete
 
 
@@ -125,7 +126,7 @@ Plugin 'repeat.vim'
 
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 
-Plugin 'tpope/vim-surround.git'
+Plugin '/usr/bin/python3tpope/vim-surround.git'
 
 Plugin 'tpope/vim-commentary.git'
 
