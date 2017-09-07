@@ -45,6 +45,7 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 let g:Powerline_symbols = 'unicode'
 let g:Powerline_colorscheme = 'solarized256'
 
+
  Plugin 'Valloric/YouCompleteMe.git'
 
 "let g:ycm_autoclose_preview_window_after_completion=1
